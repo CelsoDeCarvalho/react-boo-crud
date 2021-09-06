@@ -1,0 +1,9 @@
+.btn-create{
+    height: 27px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    border-radius: 0 !important;
+    font-size: 13px !important;
+}
