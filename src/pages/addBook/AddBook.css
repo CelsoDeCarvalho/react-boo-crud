@@ -1,0 +1,22 @@
+form{
+    width: auto;
+    padding: 5%;
+    background-color: #0B5ED7;
+    height: 100%;
+    color: white;
+}
+
+form input{
+    border-radius: 0 !important;
+    height: 27px !important;
+}
+
+form button{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    background-color:white !important;
+    border: none !important;
+    color: black !important;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+}

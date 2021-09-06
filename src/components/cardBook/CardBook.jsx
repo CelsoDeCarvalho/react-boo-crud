@@ -9,9 +9,10 @@ const CardBook = (props) => {
                 <Card.Body>
                     <Card.Title style={{fontSize:'12px'}}><i style={{marginRight:'2px',color:'#4709AE'}} class='bx bxs-book'></i>{props.titulo}</Card.Title>
                     <Card.Text style={{fontSize:'11px'}}>
-                        <p className="m-0">Autor: {props.autor}</p>
-                        <p>Data: {props.data}</p>
+                        <p className="m-0"><i style={{marginRight:'2px',color:'#4709AE'}} class='bx bxs-user'></i>Autor: {props.autor}</p>
+                        <p><i style={{marginRight:'2px',color:'#4709AE'}} class='bx bxs-time-five'></i>Data: {props.data}</p>
                     </Card.Text>
+                    <Button variant="info" style={{marginRight:'5px',color:'white'}}>read</Button>
                     <Button variant="success" style={{marginRight:'5px'}}>update</Button>
                     <Button variant="danger">delete</Button>
                 </Card.Body>
